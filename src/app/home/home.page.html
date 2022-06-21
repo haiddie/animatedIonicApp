@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row class="donut-bg ion-no-padding">
+
+   <ion-col size="6"  (click)="CalledR('mind',90,180,270)" >
+    <div class="blue-area">
+      <ion-icon [src]="slides[0].icon" class="label-icon1" ></ion-icon>
+     <h1 class="text1">Mind</h1>
+    </div>
+   </ion-col>
+   <ion-col size="6" (click)="CalledR('body',360,90,180)">
+    <div class="pink-area">
+      <ion-icon [src]="slides[1].icon" class="label-icon2" ></ion-icon>
+     <h1 class="text2">Body</h1>
+    </div>
+   </ion-col>
+
+   <ion-col size="6" (click)="CalledR('Relationships',180,270,45)">
+    <h1></h1>
+   </ion-col>
+   <ion-col size="6"  (click)="CalledR('body',360,90,180)" >
+    <h1></h1>
+   </ion-col>
+
+   <ion-col size="6"  (click)="CalledR('Relationships',180,270,45)">
+    <div class="yellow-area">
+      <ion-icon [src]="slides[2].icon" class="label-icon3" ></ion-icon>
+     <h1 class="text3">Relationships</h1>
+    </div> 
+   </ion-col>
+   <ion-col size="6" class="ion-text-left" (click)="CalledR('wealth',45,360,90)">
+    <div class="purple-area">
+      <ion-icon [src]="slides[3].icon" class="label-icon4" ></ion-icon>
+     <h1 class="text4">Wealth</h1>
+    </div>
+  </ion-col>
+
+    <ion-col size="12" class="ion-text-center" (click)="CalledR('work',270,45,360)">
+      <div class="green-area">
+        <ion-icon [src]="slides[4].icon" class="label-icon5" ></ion-icon>
+       <h1 class="text5">Work</h1>
+      </div>
+     </ion-col>
+    
+  
+   
+  
+  </ion-row>
+
+  <ion-slides [options]="slideOpts" >
+    <ion-slide  *ngFor="let a of slides" >
+      <ion-card [style.background]="a.backgroundColor" class="ion-text-left">
+        <ion-icon [src]="a.icon" class="icon" ></ion-icon>
+        <h5>
+          {{a.name}}
+        </h5>
+        <p>{{a.count}} in progress</p>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+
+ 
+
+</ion-content>

@@ -1,0 +1,133 @@
+.donut-bg{
+  background: url('../../assets/images/donut.png') no-repeat;
+  background-size:80%;
+  background-repeat: none;
+  background-position-y: center;
+  background-origin: padding-box;
+  background-position: center;
+  margin-top:50px;
+  padding:12%;
+  
+}
+.blue-area{
+  height:120px;
+  width:100%;
+  background-color:transparent
+}
+
+.text1{
+  padding-left:10px;
+  display: inline-block;
+  font-size:15px;
+}
+.label-icon1{
+  font-size:30px;
+  text-align: left;
+
+}
+
+.pink-area{
+  
+  height:120px;
+  width:100%;
+  background-color:transparent
+}
+.text2{
+  padding-left:10px;
+  display: inline-block;
+  font-size:15px;
+}
+.label-icon2{
+  font-size:30px;
+  margin-left:50px;
+
+}
+
+.yellow-area{
+  margin-top:-20px;
+  height:120px;
+  width:100%;
+  background-color:transparent
+}
+.text3{
+  padding-left:10px;
+  display: inline-block;
+  font-size:15px;
+}
+.label-icon3{
+  font-size:30px;
+   margin-top:40px;
+   margin-left:-50px;
+
+}
+
+.purple-area{
+  margin-top:-20px;
+  height:120px;
+  width:100%;
+  background-color:transparent
+}
+.text4{
+  padding-left:10px;
+  display: inline-block;
+  font-size:15px;
+}
+.label-icon4{
+  margin-top:40px;
+  margin-left:50px;
+  font-size:30px;
+ 
+
+}
+
+.green-area{
+ 
+  height:120px;
+  width:100%;
+  background-color:transparent
+}
+.text5{
+  padding-left:10px;
+  display: inline-block;
+  font-size:15px;
+}
+.label-icon5{
+  margin-top:80px;
+  font-size:30px;
+ text-align: center;
+
+}
+
+ion-slide{
+  width:180px!important;
+}
+
+ion-card{
+  width:250px!important;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.icon{
+  font-size:30px;
+  text-align: left;
+
+}
+
+h5{
+ 
+  margin-top:-1px;
+  text-align: left;
+  font-size:14px;
+  color:black;
+}
+p{
+  
+  margin-top:-1px;
+  text-align: left;
+  color:#fff;
+}
+
+
